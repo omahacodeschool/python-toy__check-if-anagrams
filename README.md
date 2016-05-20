@@ -13,7 +13,7 @@ Anagrams are words made from the same set of characters. Like this:
 
 We would say that `"chaser"` and `"search"` are anagrams; because if you rearrange the letters in one of the words, you can end up with the other word. Anagrams have _exactly_ the same letters--no more or less of any letter--but arranged differently.
 
-Write an algorithm that figures out if two strings are anagrams for each other. If the strings _are_ anagrams, the algorithm should return `true` as its final response. Otherwise, it should return `false`.
+Write an algorithm that figures out if two strings are anagrams for each other. If the strings _are_ anagrams, the algorithm should return `True` as its final response. Otherwise, it should return `False`.
 
 ### Getting Started
 

@@ -19,6 +19,6 @@ Write an algorithm that figures out if two strings are anagrams for each other. 
 
 After forking this repo and opening it in your development environment (e.g. Cloud9), run `bin/setup`. This will install any software that this exercise depends upon.
 
-Your work belongs in the **lib/** directory. Modify the function(s) in the provided Python file(s). To check if you have passed this exercise, run `bin/check`. This will run a series of automated tests and provide you with errors and/or feedback.
+Your work belongs in the file called **test_something_something.py**. There is no **lib/** directory for this project. Modify the function(s) in the provided Python file(s). To check if you have passed this exercise, run `bin/check`. This will run a series of automated tests and provide you with errors and/or feedback.
 
 Do not change the name of the function. Simply alter the body of the function to get the tests passing.

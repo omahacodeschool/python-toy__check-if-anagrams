@@ -1,7 +1,18 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
-
+  # Turn each string into a list consisting of the lower-case characters
+  # of that string.
+  list1 = list(str1.lower())
+  list2 = list(str2.lower())
+  
+  # Sort - the default method is fine
+  list1.sort()
+  list2.sort()
+  
+  # If they had the same characters, they'll now be the same list.
+  if list1 == list2:
+    return True
+  return False
+    
 # -----------------------------------------------------------------------------
 
 # These are the automated tests for this exercise. Do not modify them at all.

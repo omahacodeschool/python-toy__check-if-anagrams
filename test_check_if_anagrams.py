@@ -1,7 +1,24 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
 
+  i = 0
+  j = 0
+  answer = [0]*len(str1)
+  str1=str1.lower()
+  str2=str2.lower()
+  
+  while (i<len(str1)):
+    if str1[i] == str2[j]:
+      answer[i]=1
+      j=0
+      i=i+1
+    else:
+      j=j+1
+      if (j == len(str2)):
+        return False
+  if (sum(answer) == len(str1)):
+    return True
+  
+  
 # -----------------------------------------------------------------------------
 
 # These are the automated tests for this exercise. Do not modify them at all.

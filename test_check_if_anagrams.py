@@ -1,5 +1,11 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
+  arr1 = sorted(list(str1.upper()))
+  arr2 = sorted(list(str2.upper()))
+  
+  if arr1 == arr2:
+    return True
+  else:
+    return False
   return None
 
 # -----------------------------------------------------------------------------

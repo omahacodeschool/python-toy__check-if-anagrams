@@ -1,6 +1,9 @@
 def are_anagrams(str1, str2):
   # Remove the `return None` code below and add your own code.
-  return None
+  if sum(bytearray(str1.upper())) == sum(bytearray(str2.upper())):
+    return True
+  else:
+    return False
 
 # -----------------------------------------------------------------------------
 

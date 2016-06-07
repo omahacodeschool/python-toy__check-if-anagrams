@@ -1,6 +1,10 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+	x = list(str1.lower()) 
+	y = list(str2.lower()) #these will create new lists based on the letters in both words and lowercases all letters just in case
+	if sorted(x) == sorted(y): #sorts lists and sees if they are the same
+		return True
+	else:
+		return False
 
 # -----------------------------------------------------------------------------
 

@@ -1,6 +1,9 @@
 def are_anagrams(str1, str2):
   # Remove the `return None` code below and add your own code.
-  return None
+  if sorted(str1.lower()) == sorted(str2.lower()):
+    return True
+  else:
+    return False
 
 # -----------------------------------------------------------------------------
 

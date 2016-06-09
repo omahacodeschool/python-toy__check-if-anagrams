@@ -1,6 +1,15 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  list1 = list(str1.lower())
+  list2 = list(str2.lower())
+  list1.sort()
+  list2.sort()
+  var = cmp(list1, list2)
+
+  if var == 0:
+    return True
+  else:
+    return False
+  
 
 # -----------------------------------------------------------------------------
 

@@ -1,6 +1,11 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  # Anagrams contain the same letters in a different order. So if the letters in two anagrams are sorted, they should
+  #be the same string. I simply wrote an if statment comparing sorted versions of the strings to see if they were equivalent.
+  #If they are, then they are anagrams.
+  if sorted(str1.lower()) == sorted(str2.lower()):
+    return True
+  else:
+    return False
 
 # -----------------------------------------------------------------------------
 

@@ -1,6 +1,12 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  str1 = str1.lower()
+  str2 = str2.lower()
+  for x in range (0, len(str1)):
+    if str2.find(str1[x])!=-1:
+      str2 = str2.replace(str1[x], "", 1)
+    else:
+      return False
+  return True
 
 # -----------------------------------------------------------------------------
 

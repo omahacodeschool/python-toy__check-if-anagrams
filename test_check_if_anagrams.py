@@ -1,5 +1,12 @@
 def are_anagrams(str1, str2):
   # Remove the `return None` code below and add your own code.
+  
+  #Algorithmic Process
+  #Convert both strings to lower case
+  #Sort both strings alphebetically
+  #Compare strings - they are anagrams if they are equal
+  
+  
   return None
 
 # -----------------------------------------------------------------------------

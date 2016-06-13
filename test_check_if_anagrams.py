@@ -1,6 +1,19 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  
+  x = 0
+  str1 = str1.lower()
+  str2 = str2.lower()
+  
+  while x < len(str1):
+    
+    char1 = str1[x]
+    
+    if str2.count(char1) == str1.count(char1):
+      x += 1
+    else:
+      return False
+      
+  return True
 
 # -----------------------------------------------------------------------------
 

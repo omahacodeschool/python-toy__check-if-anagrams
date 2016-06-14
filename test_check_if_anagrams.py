@@ -1,6 +1,14 @@
+# For each character within both strings, check to see that both strings are the same length and have the same number of characters.
+# If both strings contain the same characters and have the same number of characters, return true. If not, return false.
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  is_anagram = True
+  for letter1 in str1.lower():
+		if letter1 not in str2.lower():
+			is_anagram = False
+  for letter2 in str2.lower():
+		if letter2 not in str1.lower():
+			is_anagram = False
+  return is_anagram
 
 # -----------------------------------------------------------------------------
 

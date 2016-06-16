@@ -1,6 +1,23 @@
 def are_anagrams(str1, str2):
-  # Remove the `return None` code below and add your own code.
-  return None
+  #Create list of all characters in first string in lowercase (when applicable).
+  sort1 = sorted(str1.lower())
+  
+  #Create list of all characters in second string in lowercase (when applicable).
+  sort2 = sorted(str2.lower())
+  
+  #Create match variable to store result of comparing the two lists. 
+  match = cmp(sort1, sort2)
+  
+  #If the 
+  #variable resolves to 0, program returns "True" indicating the lists match exactly, otherwise
+  #the program returns False.
+  return True if match == 0 else False
+
+
+
+
+
+
 
 # -----------------------------------------------------------------------------
 

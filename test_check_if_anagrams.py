@@ -42,3 +42,8 @@ def test_not_an_anagram():
   string1 = "dismiss"
   string2 = "excavate"
   assert are_anagrams(string1, string2) == False
+  
+def test_repeated_letter_not_an_anagram():
+  string1 = "abc"
+  string2 = "abcc"
+  assert are_anagrams(string1, string2) == False
